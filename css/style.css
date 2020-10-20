@@ -1,0 +1,25 @@
+#header{
+    background-color: cadetblue;
+    height: 75px;
+    border: 2px solid #3e524d;
+}
+#titulo{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #e1f5f1;
+}
+
+#creditos{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#titulo-temario{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.temario{
+    background-color: #8bc7c9;
+    border: 1px solid #3e524d;
+    height: 350px;
+    width: 200px;
+}
