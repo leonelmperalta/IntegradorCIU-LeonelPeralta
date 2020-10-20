@@ -1,12 +1,13 @@
 #header{
-    background-color: cadetblue;
+    background-color: #ededed;
     height: 75px;
     border: 2px solid #3e524d;
 }
 #titulo{
-    text-align: center;
+    text-align: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #e1f5f1;
+    color: black;
+    margin-left: 15px;
 }
 
 #creditos{
@@ -16,10 +17,16 @@
 }
 #titulo-temario{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
 }
 .temario{
-    background-color: #8bc7c9;
-    border: 1px solid #3e524d;
+    border: black 2px solid;
     height: 350px;
     width: 200px;
+    margin-top: 10px;
+    background-color: #ededed;
+}
+.tema{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
 }
