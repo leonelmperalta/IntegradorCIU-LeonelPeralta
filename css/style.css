@@ -1,5 +1,5 @@
 .title{
-    font-family: Roboto;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 48px;
@@ -7,12 +7,14 @@
     position: absolute;
     left: 50px;
     top: -18px;
+    filter: opacity(75%)
 }
 .logo{
     position: absolute;
     left: 1280px;
     top: 14px;
     height: 96px;
+    filter: opacity(90%);
 
 }
 .temario{
@@ -30,23 +32,35 @@ body{
     background: rgba(236, 125, 47, 0.82); 
     background-image: url(/images/background.svg);
 
-
 }
 .banner{
     position: absolute;
     left: 0px;
     top: 20px;
     height: 118px;
-    width: 1425px;
+    width: 1440px;
     background: white;
     border-top: 5px #848484 solid;
     border-bottom: 5px #848484 solid;
 }
 .tema{
     position: absolute;
-    width: 940px;
+    width: 1024px;
     height: 619px;
-    left: 383px;
-    top: 330px;
-
+    left: 300px;
+    top: 200px;
+    background: white;
+    border: #848484 5px solid;
+}
+.temariotitle{
+    text-align: center;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 370;
+    filter: opacity(75%);
+}
+.temas{
+    text-align: left;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 370;
+    filter: opacity(75%);
 }
