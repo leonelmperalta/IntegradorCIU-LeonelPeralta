@@ -1,32 +1,52 @@
-#header{
-    background-color: #ededed;
-    height: 75px;
-    border: 2px solid #3e524d;
-}
-#titulo{
-    text-align: left;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
-    margin-left: 15px;
-}
-
-#creditos{
+.title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    color: #000000;
     position: absolute;
-    bottom: 0;
-    left: 0;
+    left: 50px;
+    top: -18px;
 }
-#titulo-temario{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 10px;
+.logo{
+    position: absolute;
+    left: 1280px;
+    top: 14px;
+    height: 96px;
+
 }
 .temario{
-    border: black 2px solid;
-    height: 350px;
-    width: 200px;
-    margin-top: 10px;
-    background-color: #ededed;
+    position: absolute;
+    left: 0px;
+    top: 200px;
+    width: 13vw;
+    height: 380px;
+    background: white;
+    border: #848484 5px solid;
+    border-left: none;
+}
+
+body{
+    background: rgba(236, 125, 47, 0.82); 
+    background-image: url(/images/background.svg);
+
+
+}
+.banner{
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    height: 118px;
+    width: 1425px;
+    background: white;
+    border-top: 5px #848484 solid;
+    border-bottom: 5px #848484 solid;
 }
 .tema{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+    position: absolute;
+    width: 940px;
+    height: 619px;
+    left: 383px;
+    top: 330px;
+
 }
