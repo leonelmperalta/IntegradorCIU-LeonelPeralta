@@ -46,7 +46,7 @@ body{
 .tema{
     position: absolute;
     width: 1024px;
-    height: 619px;
+    height: fit-content;
     left: 300px;
     top: 200px;
     background: white;
@@ -63,4 +63,50 @@ body{
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 370;
     filter: opacity(75%);
+    
+}
+.codigo{
+    position: relative;
+    left: 5vw;
+    width: 800px;
+    filter: drop-shadow(2px 2px 2px #848484);
+}
+.tematitle{
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    margin-left: 10px;
+    filter: opacity(90%);
+}
+.descripcion{
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 370;
+    margin-left: 10px;
+    
+}
+#botonEjecutar{
+    background-color: rgba(64, 145, 18, 0.82);
+    color: white;
+    margin-left: 53vw;
+    font-size: 15px;
+    border: 1px solid #848484;
+    display: inline-block;
+    padding: 10px 22px;
+    text-decoration: none;
+    filter: drop-shadow(2px 2px 2px #848484);
+
+}
+.botonEmpezar{
+    background-color: rgba(64, 145, 18, 0.82);
+    color: white;
+    margin-left: 27vw;
+    font-size: 15px;
+    border: 1px solid #848484;
+    display: inline-block;
+    padding: 10px 22px;
+    text-decoration: none;
+    filter: drop-shadow(2px 2px 2px #848484);
+    margin-bottom: 5px;
+}
+#linkEmpezar{
+    color: white;
 }

@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Curso introductorio a JS</title>
-    <link rel="stylesheet" href="./css/styles/railscasts.css">
-    <script src="./js/highlight.pack.js"></script>
+    <link rel="stylesheet" href="../css/styles/railscasts.css">
+    <script src="../js/highlight.pack.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 </head>
 
@@ -36,18 +36,23 @@
             </div>
         </div>
         <div class="tema">
-            <h2 class="tematitle" id="tituloEjercicio">Bienvenidos!</h2>
-            <p class="descripcion" id="descripcionEjercicio">
-                En el siguiente curso, se aprenderan los conceptos basicos para comprender el funcionamiento 
-                de el lenguaje de programacion Javascript.
-            </p>
-            <button class="botonEmpezar"><a href="./codigosEjercicios/punto1.html" id="linkEmpezar">Empezar!</a></button>
-            <p class="descripcion">
-                Hecho por Leonel Peralta. Trabajo practico Integrador de la materia Construccion de Interfaces
-                de Usuario - UNAHUR 2020.-
-            </p>
+            <h2 class="tematitle" id="tituloEjercicio">Titulo</h2>
+            <p class="descripcion" id="descripcionEjercicio"></p>
+            <div class="codigo" >
+                <pre><code id="codigoEjercicio">
+                    
+                </code></pre>
+                
+            </div>
+            <button id="botonEjecutar" onclick="ejecutarCodigo()">Ejecutar!</button>
+            <div class="codigo" >
+                <pre><code id="consolavirtual"></code></pre>
+            </div>
+        <button class="botonEmpezar"><a href="./codigosEjercicios/punto2.html" id="linkEmpezar">Siguiente</a></button>
         </div>
+        
     </div>
+    <script type="text/javascript" src="../js/scripts.js"></script>
 </body>
 
 </html>
