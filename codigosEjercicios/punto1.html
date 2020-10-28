@@ -18,7 +18,7 @@
                 <div class="title">
                     <p> Curso introductorio a Javascript</p>
                 </div>
-                <a href=""><img src="/images/logo-js.svg" class="logo"></a>
+                <a href="../index.html"><img src="/images/logo-js.svg" class="logo"></a>
             </div>
         </div>
         <div class="temario">
@@ -28,17 +28,21 @@
             </div>
             <div class="temas">
                 <ul>
-                    <li class="temas"> <a href="../codigosEjercicios/punto1.html">Diferencia entre var y let</a></li>
-                    <li class="temas"> <a href="">Tema ejemplo</a></li>
-                    <li class="temas"> <a href="">Tema ejemplo</a></li>
-                    <li class="temas"> <a href="">Tema ejemplo</a></li>
+                    <li class="temas"> <a href="./punto1.html">Diferencia entre var y let</a></li>
+                    <li class="temas"> <a href="./punto2.html">Funciones</a></li>
+                    <li class="temas"> <a href="./punto3.html">Arrow function</a></li>
+                    <li class="temas"> <a href="./punto4.html">Object literal</a></li>
+                    <li class="temas"> <a href="./punto5.html">Object constructor</a></li>
                 </ul>
             </div>
         </div>
         <div class="tema">
-            <h2 class="tematitle" id="tituloEjercicio">Titulo</h2>
-            <p class="descripcion" id="descripcionEjercicio"><em>let</em> te permite declarar variables limitando su alcance (scope) al bloque, declaración, o expresión donde se está usando. Lo anterior diferencia  let de la palabra reservada <em>var</em> , la cual define una variable global o local en una función sin importar el ámbito del bloque.</p>
-            <div class="codigo" >
+            <h2 class="tematitle" id="tituloEjercicio">Variables en JS - Diferencia entre var y let</h2>
+            <p class="descripcion" id="descripcionEjercicio"><em>let</em> te permite declarar variables limitando su
+                alcance (scope) al bloque, declaración, o expresión donde se está usando. Lo anterior diferencia let de
+                la palabra reservada <em>var</em> , la cual define una variable global o local en una función sin
+                importar el ámbito del bloque.</p>
+            <div class="codigo">
                 <pre><code id="codigoEjercicio">
                     // Con var la variable es global. 
                     // Con let y const es más lógico y vale solo dentro de las llaves
@@ -69,15 +73,16 @@
 
                     console.log ('Afuera del if:', moto);
                 </code></pre>
-                
+
             </div>
             <button id="botonEjecutar" onclick="ejecutarCodigo()">Ejecutar!</button>
-            <div class="codigo" >
+            <div class="codigo">
                 <pre><code id="consolavirtual"></code></pre>
             </div>
-            <button class="botonEmpezar"><a href="../codigosEjercicios/punto2.html" id="linkEmpezar">Siguiente</a></button>
+            <button class="botonEmpezar"><a href="./punto2.html"
+                    id="linkEmpezar">Siguiente</a></button>
         </div>
-        
+
     </div>
     <script type="text/javascript" src="../js/scripts.js"></script>
 </body>

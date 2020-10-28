@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Curso introductorio a JS</title>
+    <link rel="stylesheet" href="../css/styles/railscasts.css">
+    <script src="../js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+    <div class="background">
+        <div class="header">
+            <div class="banner">
+                <div class="title">
+                    <p> Curso introductorio a Javascript</p>
+                </div>
+                <a href="../index.html"><img src="/images/logo-js.svg" class="logo"></a>
+            </div>
+        </div>
+        <div class="temario">
+
+            <div>
+                <h2 class="temariotitle">Temas: </h2>
+            </div>
+            <div class="temas">
+                <ul>
+                    <li class="temas"> <a href="./punto1.html">Diferencia entre var y let</a></li>
+                    <li class="temas"> <a href="./punto2.html">Funciones</a></li>
+                    <li class="temas"> <a href="./punto3.html">Arrow function</a></li>
+                    <li class="temas"> <a href="./punto4.html">Object literal</a></li>
+                    <li class="temas"> <a href="./punto5.html">Object constructor</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="tema">
+            <h2 class="tematitle" id="tituloEjercicio">Object literal</h2>
+            <p class="descripcion" id="descripcionEjercicio">Un objeto como los que se veran en el ejemplo, se conoce
+                como un objeto literal —
+                literalmente hemos escrito el contenido del objeto tal como lo fuimos creando. Esto está en contraste
+                con los objetos instanciados de las clases, que veremos más adelante.
+                Es muy común crear un objeto utilizando un objeto literal cuando deseas transferir una serie de
+                elementos de datos relacionados y estructurados de alguna manera, por ejemplo, enviando una solicitud al
+                servidor para ponerla en una base de datos. Enviar un solo objeto es mucho más eficiente que enviar
+                varios elementos individualmente, y es más fácil de procesar que con un arreglo, cuando deseas
+                identificar elementos individuales por nombre.
+
+            </p>
+            <div class="codigo">
+                <pre><code id="codigoEjercicio">
+                    //
+                    // Object Literal
+                    //
+
+                    console.log('Object literal');
+
+                    // Definición de un objeto 
+                    const deportista = {
+                        nombre: 'Valentino',
+                        deporte: 'Motociclismo'
+                    };
+
+                    // Esto es una definición de algo que no tiene objeto
+                    let nombreDeportista = 'Collin Mc Rae';
+                    let nombreDeporte = 'rally';
+
+                    // Mirar las diferencias en la consola, 
+                    // Cómo los muestra diferentes.
+                    console.log(deportista);
+                    console.log(nombreDeportista);
+                    console.log(nombreDeporte);
+
+                    // Para acceder a los valores del objeto
+                    console.log('Accediendo a los valores del objeto');
+                    console.log(deportista.nombre);
+                    console.log(deportista.deporte);
+
+                    // Otra manera de acceder 
+                    console.log(deportista['nombre']);
+
+
+                    // El Object Literal nos permite usar un valor por cada variable
+                    // Si necesito un  objeto distinto pero con la misma 
+                    // estructura, tengo que crear otro objeto
+
+
+                    const deportista_otro = {
+                        nombre: 'Cristiano Ronaldo',
+                        deporte: 'Fútbol'
+                    };
+
+                    console.log('Accediendo a los valores del objeto');
+                    console.log(deportista_otro.nombre);
+                    console.log(deportista_otro.deporte);
+                </code></pre>
+
+            </div>
+            <button id="botonEjecutar" onclick="ejecutarCodigo()">Ejecutar!</button>
+            <div class="codigo">
+                <pre><code id="consolavirtual"></code></pre>
+            </div>
+            <button class="botonEmpezar"><a href="./punto5.html"
+                    id="linkEmpezar">Siguiente</a></button>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="../js/scripts.js"></script>
+</body>
+
+</html>
